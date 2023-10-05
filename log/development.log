@@ -1,0 +1,4033 @@
+Started GET "/" for ::1 at 2022-05-13 17:45:51 +0530
+  [1m[35m (2.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby31/lib/ruby/gems/3.1.0/gems/railties-7.0.2.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby31/lib/ruby/gems/3.1.0/gems/railties-7.0.2.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 3.6ms | Allocations: 637)
+Completed 200 OK in 36ms (Views: 13.4ms | ActiveRecord: 0.0ms | Allocations: 5027)
+
+
+Started GET "/" for ::1 at 2022-05-13 21:15:03 +0530
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 1.5ms | Allocations: 318)
+  Rendered layout layouts/application.html.erb (Duration: 248.1ms | Allocations: 72928)
+Completed 500 Internal Server Error in 273ms (ActiveRecord: 0.0ms | Allocations: 76023)
+
+
+  
+ActionView::Template::Error (Permission denied @ rb_file_s_rename - (D:/web project/NITC_HOSTELMANAGEMENT/tmp/cache/assets/sprockets/v4.0.0/gn/gnuCO6iQ2NJ6eOhgwrmpQ2wxoVuTxfe81Q6Drvi5Xco.cache.20860.16568.480369, D:/web project/NITC_HOSTELMANAGEMENT/tmp/cache/assets/sprockets/v4.0.0/gn/gnuCO6iQ2NJ6eOhgwrmpQ2wxoVuTxfe81Q6Drvi5Xco.cache)):
+  
+sprockets (4.0.3) lib/sprockets/path_utils.rb:362:in `rename'
+sprockets (4.0.3) lib/sprockets/path_utils.rb:362:in `atomic_write'
+sprockets (4.0.3) lib/sprockets/cache/file_store.rb:112:in `set'
+sprockets (4.0.3) lib/sprockets/cache.rb:227:in `set'
+sprockets (4.0.3) lib/sprockets/cache.rb:93:in `fetch'
+sprockets (4.0.3) lib/sprockets/base.rb:71:in `file_digest'
+sprockets (4.0.3) lib/sprockets.rb:210:in `block in <module:Sprockets>'
+sprockets (4.0.3) lib/sprockets/dependencies.rb:68:in `resolve_dependency'
+sprockets (4.0.3) lib/sprockets/cached_environment.rb:54:in `resolve_dependency'
+sprockets (4.0.3) lib/sprockets/loader.rb:288:in `block in resolve_dependencies'
+C:/Ruby31/lib/ruby/3.1.0/set.rb:511:in `each_key'
+C:/Ruby31/lib/ruby/3.1.0/set.rb:511:in `each'
+sprockets (4.0.3) lib/sprockets/loader.rb:288:in `map'
+sprockets (4.0.3) lib/sprockets/loader.rb:288:in `resolve_dependencies'
+sprockets (4.0.3) lib/sprockets/loader.rb:220:in `load_from_unloaded'
+sprockets (4.0.3) lib/sprockets/loader.rb:59:in `block in load'
+sprockets (4.0.3) lib/sprockets/loader.rb:337:in `fetch_asset_from_dependency_cache'
+sprockets (4.0.3) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.0.3) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.0.3) lib/sprockets/bundle.rb:27:in `call'
+sprockets (4.0.3) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.0.3) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.0.3) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.0.3) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.0.3) lib/sprockets/loader.rb:182:in `load_from_unloaded'
+sprockets (4.0.3) lib/sprockets/loader.rb:59:in `block in load'
+sprockets (4.0.3) lib/sprockets/loader.rb:337:in `fetch_asset_from_dependency_cache'
+sprockets (4.0.3) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.0.3) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.0.3) lib/sprockets/base.rb:81:in `find_asset'
+sprockets (4.0.3) lib/sprockets/base.rb:88:in `find_all_linked_assets'
+sprockets (4.0.3) lib/sprockets/manifest.rb:125:in `each'
+sprockets (4.0.3) lib/sprockets/manifest.rb:125:in `to_a'
+sprockets (4.0.3) lib/sprockets/manifest.rb:125:in `block (2 levels) in find'
+concurrent-ruby (1.1.10) lib/concurrent-ruby/concurrent/executor/safe_task_executor.rb:24:in `block in execute'
+concurrent-ruby (1.1.10) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:47:in `block in synchronize'
+concurrent-ruby (1.1.10) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:47:in `synchronize'
+concurrent-ruby (1.1.10) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:47:in `synchronize'
+concurrent-ruby (1.1.10) lib/concurrent-ruby/concurrent/executor/safe_task_executor.rb:22:in `execute'
+concurrent-ruby (1.1.10) lib/concurrent-ruby/concurrent/promise.rb:564:in `block in realize'
+concurrent-ruby (1.1.10) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:352:in `run_task'
+concurrent-ruby (1.1.10) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:343:in `block (3 levels) in create_worker'
+concurrent-ruby (1.1.10) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:334:in `loop'
+concurrent-ruby (1.1.10) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:334:in `block (2 levels) in create_worker'
+concurrent-ruby (1.1.10) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:333:in `catch'
+concurrent-ruby (1.1.10) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:333:in `block in create_worker'
+Started GET "/" for ::1 at 2022-05-13 21:15:14 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 0.1ms | Allocations: 20)
+  Rendered layout layouts/application.html.erb (Duration: 51.7ms | Allocations: 24028)
+Completed 200 OK in 54ms (Views: 53.0ms | ActiveRecord: 0.0ms | Allocations: 24397)
+
+
+Started GET "/" for ::1 at 2022-05-14 00:33:56 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 0.8ms | Allocations: 408)
+  Rendered layout layouts/application.html.erb (Duration: 9.3ms | Allocations: 2197)
+Completed 200 OK in 15ms (Views: 14.0ms | Allocations: 2993)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/web/assets/mobirise-icons2/mobirise2.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap/css/bootstrap.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap/css/bootstrap-grid.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap/css/bootstrap-reboot.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/theme/css/style.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/266896746.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/289078429.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/mobirise/css/mbr-additional.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/30ki-nitjpg5-1-1200x583.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/432066048_gal.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/294157463.jpg"):
+  
+Started GET "/" for ::1 at 2022-05-14 08:19:26 +0530
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 1.9ms | Allocations: 588)
+  Rendered layout layouts/application.html.erb (Duration: 113.9ms | Allocations: 31125)
+Completed 200 OK in 127ms (Views: 119.5ms | ActiveRecord: 0.0ms | Allocations: 34270)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/web/assets/mobirise-icons2/mobirise2.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap/css/bootstrap.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap/css/bootstrap-grid.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap/css/bootstrap-reboot.min.css"):
+  
+
+NameError: constant WebConsole::SourceLocation not defined
+
+          source_location = SourceLocation.new(binding)
+                            ^^^^^^^^^^^^^^
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/exception_mapper.rb:51:in `block in guess_the_first_application_binding'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/exception_mapper.rb:50:in `each'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/exception_mapper.rb:50:in `find'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/exception_mapper.rb:50:in `guess_the_first_application_binding'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/exception_mapper.rb:30:in `first'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/session.rb:48:in `initialize'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/session.rb:34:in `new'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/session.rb:34:in `from'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/middleware.rb:30:in `block in call'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/middleware.rb:17:in `catch'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/middleware.rb:17:in `call'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/actionpack-7.0.2.4/lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/railties-7.0.2.4/lib/rails/rack/logger.rb:36:in `call_app'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/railties-7.0.2.4/lib/rails/rack/logger.rb:25:in `block in call'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/activesupport-7.0.2.4/lib/active_support/tagged_logging.rb:99:in `block in tagged'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/activesupport-7.0.2.4/lib/active_support/tagged_logging.rb:37:in `tagged'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/activesupport-7.0.2.4/lib/active_support/tagged_logging.rb:99:in `tagged'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/railties-7.0.2.4/lib/rails/rack/logger.rb:25:in `call'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/sprockets-rails-3.4.2/lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/activesupport-7.0.2.4/lib/active_support/logger_silence.rb:18:in `block in silence'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/activesupport-7.0.2.4/lib/active_support/logger_thread_safe_level.rb:43:in `log_at'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/activesupport-7.0.2.4/lib/active_support/logger_silence.rb:18:in `silence'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/activesupport-7.0.2.4/lib/active_support/logger.rb:64:in `block (3 levels) in broadcast'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/activesupport-7.0.2.4/lib/active_support/logger_silence.rb:18:in `block in silence'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/activesupport-7.0.2.4/lib/active_support/logger_thread_safe_level.rb:43:in `log_at'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/activesupport-7.0.2.4/lib/active_support/logger_silence.rb:18:in `silence'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/activesupport-7.0.2.4/lib/active_support/logger.rb:62:in `block (2 levels) in broadcast'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/sprockets-rails-3.4.2/lib/sprockets/rails/quiet_assets.rb:11:in `call'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/actionpack-7.0.2.4/lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/actionpack-7.0.2.4/lib/action_dispatch/middleware/request_id.rb:26:in `call'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/rack-2.2.3/lib/rack/method_override.rb:24:in `call'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/rack-2.2.3/lib/rack/runtime.rb:22:in `call'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/activesupport-7.0.2.4/lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/actionpack-7.0.2.4/lib/action_dispatch/middleware/server_timing.rb:20:in `call'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/actionpack-7.0.2.4/lib/action_dispatch/middleware/executor.rb:14:in `call'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/actionpack-7.0.2.4/lib/action_dispatch/middleware/static.rb:23:in `call'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/rack-2.2.3/lib/rack/sendfile.rb:110:in `call'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/actionpack-7.0.2.4/lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/railties-7.0.2.4/lib/rails/engine.rb:530:in `call'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/puma-5.6.4/lib/puma/configuration.rb:252:in `call'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/puma-5.6.4/lib/puma/request.rb:77:in `block in handle_request'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/puma-5.6.4/lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/puma-5.6.4/lib/puma/request.rb:76:in `handle_request'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/puma-5.6.4/lib/puma/server.rb:441:in `process_client'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/puma-5.6.4/lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+  
+ActionController::RoutingError (No route matches [GET] "/assets/theme/css/style.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/266896746.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/294157463.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/289078429.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/432066048_gal.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/30ki-nitjpg5-1-1200x583.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/mobirise/css/mbr-additional.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/294157463.jpg"):
+  
+Started GET "/" for ::1 at 2022-05-14 08:39:21 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 0.6ms | Allocations: 401)
+  Rendered layout layouts/application.html.erb (Duration: 4.3ms | Allocations: 2275)
+Completed 200 OK in 9ms (Views: 7.7ms | Allocations: 3091)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/web/assets/mobirise-icons2/mobirise2.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap/css/bootstrap.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap/css/bootstrap-grid.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap/css/bootstrap-reboot.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/theme/css/style.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/mobirise/css/mbr-additional.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/266896746.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/289078429.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/294157463.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/30ki-nitjpg5-1-1200x583.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/432066048_gal.jpg"):
+  
+Started GET "/" for ::1 at 2022-05-14 08:39:25 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 0.0ms | Allocations: 20)
+  Rendered layout layouts/application.html.erb (Duration: 2.7ms | Allocations: 1451)
+Completed 200 OK in 4ms (Views: 3.7ms | Allocations: 1750)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/web/assets/mobirise-icons2/mobirise2.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/mobirise/css/mbr-additional.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/theme/css/style.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap/css/bootstrap-reboot.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap/css/bootstrap-grid.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap/css/bootstrap.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/289078429.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/266896746.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/432066048_gal.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/294157463.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/30ki-nitjpg5-1-1200x583.jpg"):
+  
+Started GET "/" for ::1 at 2022-05-14 08:42:17 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 0.1ms | Allocations: 20)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 1465)
+Completed 200 OK in 10ms (Views: 8.5ms | Allocations: 1742)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap/css/bootstrap.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/web/assets/mobirise-icons2/mobirise2.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap/css/bootstrap-grid.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap/css/bootstrap-reboot.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/theme/css/style.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/mobirise/css/mbr-additional.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/289078429.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/266896746.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/432066048_gal.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/294157463.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/30ki-nitjpg5-1-1200x583.jpg"):
+  
+Started GET "/" for ::1 at 2022-05-14 08:46:09 +0530
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 1.3ms | Allocations: 303)
+  Rendered home/_header.html.erb (Duration: 0.4ms | Allocations: 141)
+  Rendered layout layouts/application.html.erb (Duration: 64.5ms | Allocations: 24688)
+Completed 200 OK in 82ms (Views: 72.7ms | ActiveRecord: 0.0ms | Allocations: 27828)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/" for ::1 at 2022-05-14 08:49:03 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 0.4ms | Allocations: 125)
+  Rendered home/_header.html.erb (Duration: 0.3ms | Allocations: 141)
+  Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 2271)
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.0ms | Allocations: 3100)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/" for ::1 at 2022-05-14 08:51:26 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 0.3ms | Allocations: 125)
+  Rendered home/_header.html.erb (Duration: 0.3ms | Allocations: 141)
+  Rendered layout layouts/application.html.erb (Duration: 4.9ms | Allocations: 2282)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 3107)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/" for ::1 at 2022-05-14 08:52:00 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 0.3ms | Allocations: 125)
+  Rendered home/_header.html.erb (Duration: 0.5ms | Allocations: 142)
+  Rendered layout layouts/application.html.erb (Duration: 6.1ms | Allocations: 2264)
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.0ms | Allocations: 3083)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/" for ::1 at 2022-05-14 08:52:44 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 0.4ms | Allocations: 125)
+  Rendered home/_header.html.erb (Duration: 0.3ms | Allocations: 142)
+  Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 2255)
+Completed 200 OK in 8ms (Views: 7.4ms | Allocations: 3064)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/" for ::1 at 2022-05-14 08:52:45 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 0.0ms | Allocations: 20)
+  Rendered home/_header.html.erb (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 1552)
+Completed 200 OK in 4ms (Views: 3.6ms | Allocations: 1847)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/" for ::1 at 2022-05-14 08:53:20 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 0.3ms | Allocations: 125)
+  Rendered home/_header.html.erb (Duration: 0.3ms | Allocations: 142)
+  Rendered layout layouts/application.html.erb (Duration: 4.8ms | Allocations: 2253)
+Completed 200 OK in 8ms (Views: 7.4ms | Allocations: 3051)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/" for ::1 at 2022-05-14 08:54:00 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 0.3ms | Allocations: 125)
+  Rendered home/_header.html.erb (Duration: 0.7ms | Allocations: 142)
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 2274)
+Completed 200 OK in 9ms (Views: 7.7ms | Allocations: 3090)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/" for ::1 at 2022-05-14 08:54:23 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 0.3ms | Allocations: 125)
+  Rendered home/_header.html.erb (Duration: 0.3ms | Allocations: 141)
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 2263)
+Completed 200 OK in 10ms (Views: 8.6ms | Allocations: 3072)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/" for ::1 at 2022-05-14 08:55:56 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 0.3ms | Allocations: 125)
+  Rendered home/_header.html.erb (Duration: 0.3ms | Allocations: 142)
+  Rendered layout layouts/application.html.erb (Duration: 4.7ms | Allocations: 2267)
+Completed 200 OK in 8ms (Views: 7.2ms | Allocations: 3076)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/" for ::1 at 2022-05-14 08:56:20 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 0.3ms | Allocations: 125)
+  Rendered home/_header.html.erb (Duration: 0.3ms | Allocations: 138)
+  Rendered layout layouts/application.html.erb (Duration: 4.4ms | Allocations: 2269)
+Completed 200 OK in 8ms (Views: 6.7ms | Allocations: 3078)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/" for ::1 at 2022-05-14 08:57:29 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 0.3ms | Allocations: 125)
+  Rendered home/_header.html.erb (Duration: 0.4ms | Allocations: 137)
+  Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 2280)
+Completed 200 OK in 9ms (Views: 7.9ms | Allocations: 3089)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/" for ::1 at 2022-05-14 08:57:30 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 0.0ms | Allocations: 20)
+  Rendered home/_header.html.erb (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 1552)
+Completed 200 OK in 4ms (Views: 3.9ms | Allocations: 1847)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/" for ::1 at 2022-05-14 09:01:21 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 0.4ms | Allocations: 125)
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 136)
+  Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 2300)
+Completed 200 OK in 8ms (Views: 7.3ms | Allocations: 3091)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/" for ::1 at 2022-05-14 09:02:56 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 0.6ms | Allocations: 405)
+  Rendered home/_header.html.erb (Duration: 0.5ms | Allocations: 136)
+  Rendered layout layouts/application.html.erb (Duration: 5.4ms | Allocations: 2565)
+Completed 200 OK in 9ms (Views: 8.4ms | Allocations: 3374)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/bootstrap.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/web/assets/mobirise-icons2/mobirise2.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap/css/bootstrap.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap/css/bootstrap-grid.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap/css/bootstrap-reboot.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/mobirise/css/mbr-additional.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/theme/css/style.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/266896746.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/289078429.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/294157463.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/30ki-nitjpg5-1-1200x583.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/432066048_gal.jpg"):
+  
+Started GET "/" for ::1 at 2022-05-14 09:43:53 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 0.6ms | Allocations: 401)
+  Rendered home/_header.html.erb (Duration: 0.3ms | Allocations: 188)
+  Rendered layout layouts/application.html.erb (Duration: 4.8ms | Allocations: 2595)
+Completed 200 OK in 9ms (Views: 7.9ms | Allocations: 3404)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/bootstrap.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/web/assets/mobirise-icons2/mobirise2.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap/css/bootstrap-grid.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap/css/bootstrap.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap/css/bootstrap-reboot.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/mobirise/css/mbr-additional.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/266896746.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/432066048_gal.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/294157463.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/289078429.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/30ki-nitjpg5-1-1200x583.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/theme/css/style.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/294157463.jpg"):
+  
+Started GET "/" for ::1 at 2022-05-14 09:44:39 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 0.0ms | Allocations: 20)
+  Rendered home/_header.html.erb (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 1559)
+Completed 200 OK in 4ms (Views: 3.8ms | Allocations: 1854)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/bootstrap.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/web/assets/mobirise-icons2/mobirise2.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap/css/bootstrap.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap/css/bootstrap-grid.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/theme/css/style.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/mobirise/css/mbr-additional.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/266896746.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/294157463.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/432066048_gal.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/289078429.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/30ki-nitjpg5-1-1200x583.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap/css/bootstrap-reboot.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/294157463.jpg"):
+  
+Started GET "/" for ::1 at 2022-05-14 10:29:07 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 0.1ms | Allocations: 20)
+  Rendered home/_header.html.erb (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 4.8ms | Allocations: 1544)
+Completed 200 OK in 6ms (Views: 5.5ms | Allocations: 1821)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/bootstrap.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/web/assets/mobirise-icons2/mobirise2.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap/css/bootstrap-grid.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap/css/bootstrap.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap/css/bootstrap-reboot.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/theme/css/style.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/mobirise/css/mbr-additional.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/266896746.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/294157463.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/289078429.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/30ki-nitjpg5-1-1200x583.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/432066048_gal.jpg"):
+  
+Started GET "/" for ::1 at 2022-05-14 10:35:24 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 0.7ms | Allocations: 406)
+  Rendered home/_header.html.erb (Duration: 0.3ms | Allocations: 137)
+  Rendered layout layouts/application.html.erb (Duration: 4.9ms | Allocations: 2576)
+Completed 200 OK in 9ms (Views: 8.3ms | Allocations: 3367)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/web/assets/mobirise-icons2/mobirise2.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/bootstrap.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap/css/bootstrap.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap/css/bootstrap-grid.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap/css/bootstrap-reboot.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/mobirise/css/mbr-additional.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/30ki-nitjpg5-1-1200x583.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/294157463.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/432066048_gal.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/289078429.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/theme/css/style.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/30ki-nitjpg5-1-1200x583.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/294157463.jpg"):
+  
+Started GET "/" for ::1 at 2022-05-14 10:38:11 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 1.3ms | Allocations: 390)
+  Rendered home/_header.html.erb (Duration: 0.3ms | Allocations: 136)
+  Rendered layout layouts/application.html.erb (Duration: 6.9ms | Allocations: 2566)
+Completed 200 OK in 11ms (Views: 9.8ms | Allocations: 3375)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/web/assets/mobirise-icons2/mobirise2.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/bootstrap.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap/css/bootstrap-grid.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap/css/bootstrap-reboot.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/theme/css/style.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/mobirise/css/mbr-additional.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/30ki-nitjpg5-1-1200x583.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/432066048_gal.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/download-1-259x194.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/download-2-259x194.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/294157463.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap/css/bootstrap.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/30ki-nitjpg5-1-1200x583.jpg"):
+  
+Started GET "/" for ::1 at 2022-05-14 10:40:22 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 0.7ms | Allocations: 382)
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 136)
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 2563)
+Completed 200 OK in 9ms (Views: 7.8ms | Allocations: 3372)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/web/assets/mobirise-icons2/mobirise2.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap/css/bootstrap.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/bootstrap.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap/css/bootstrap-reboot.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap/css/bootstrap-grid.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/mobirise/css/mbr-additional.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/30ki-nitjpg5-1-1200x583.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/download-2-259x194.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/download-1-259x194.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/theme/css/style.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/30ki-nitjpg5-1-1200x583.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/download-1-259x194.jpg"):
+  
+Started GET "/" for ::1 at 2022-05-14 10:40:26 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 0.0ms | Allocations: 20)
+  Rendered home/_header.html.erb (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 1589)
+Completed 200 OK in 4ms (Views: 3.2ms | Allocations: 1884)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/bootstrap.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap/css/bootstrap-reboot.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap/css/bootstrap-grid.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap/css/bootstrap.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/theme/css/style.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/mobirise/css/mbr-additional.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/web/assets/mobirise-icons2/mobirise2.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/30ki-nitjpg5-1-1200x583.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/download-1-259x194.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/download-2-259x194.jpg"):
+  
+Started GET "/" for ::1 at 2022-05-14 10:45:36 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 0.6ms | Allocations: 412)
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 136)
+  Rendered layout layouts/application.html.erb (Duration: 5.0ms | Allocations: 2585)
+Completed 200 OK in 9ms (Views: 7.9ms | Allocations: 3376)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/download-1-259x194.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/bootstrap.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap/css/bootstrap.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/web/assets/mobirise-icons2/mobirise2.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap/css/bootstrap-grid.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/theme/css/style.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/mobirise/css/mbr-additional.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/download-2-259x194.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/30ki-nitjpg5-1-1200x583.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap/css/bootstrap-reboot.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/download-2-259x194.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/30ki-nitjpg5-1-1200x583.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/download-1-259x194.jpg"):
+  
+Started GET "/" for ::1 at 2022-05-14 10:47:42 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 0.6ms | Allocations: 162)
+  Rendered home/_header.html.erb (Duration: 0.9ms | Allocations: 136)
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 2338)
+Completed 200 OK in 10ms (Views: 9.3ms | Allocations: 3147)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/download-1-259x194.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/download-2-259x194.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/" for ::1 at 2022-05-14 10:49:47 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 0.9ms | Allocations: 168)
+  Rendered home/_header.html.erb (Duration: 0.3ms | Allocations: 136)
+  Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 2341)
+Completed 200 OK in 9ms (Views: 7.9ms | Allocations: 3150)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/download-1-259x194.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/download-2-259x194.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/" for ::1 at 2022-05-14 10:53:16 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 0.5ms | Allocations: 167)
+  Rendered home/_header.html.erb (Duration: 0.3ms | Allocations: 136)
+  Rendered layout layouts/application.html.erb (Duration: 4.7ms | Allocations: 2325)
+Completed 200 OK in 9ms (Views: 8.3ms | Allocations: 3133)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/download-1-259x194.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/download-2-259x194.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/" for ::1 at 2022-05-14 10:53:38 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 0.4ms | Allocations: 168)
+  Rendered home/_header.html.erb (Duration: 0.4ms | Allocations: 136)
+  Rendered layout layouts/application.html.erb (Duration: 5.9ms | Allocations: 2343)
+Completed 200 OK in 9ms (Views: 8.5ms | Allocations: 3152)
+
+
+Started GET "/app/assets/images/download-1-259x194.jpg" for ::1 at 2022-05-14 10:53:38 +0530
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-14 10:53:38 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-1-259x194.jpg"):
+  
+Started GET "/app/assets/images/download-2-259x194.jpg" for ::1 at 2022-05-14 10:53:38 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-2-259x194.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/" for ::1 at 2022-05-14 10:53:40 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 0.0ms | Allocations: 20)
+  Rendered home/_header.html.erb (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 1587)
+Completed 200 OK in 5ms (Views: 4.2ms | Allocations: 1882)
+
+
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-14 10:53:40 +0530
+Started GET "/app/assets/images/download-2-259x194.jpg" for ::1 at 2022-05-14 10:53:40 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  
+Started GET "/app/assets/images/download-1-259x194.jpg" for ::1 at 2022-05-14 10:53:40 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-2-259x194.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/bootstrap.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-1-259x194.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.js"):
+  
+Started GET "/" for ::1 at 2022-05-14 10:54:56 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 0.4ms | Allocations: 167)
+  Rendered home/_header.html.erb (Duration: 0.3ms | Allocations: 136)
+  Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 2347)
+Completed 200 OK in 9ms (Views: 7.8ms | Allocations: 3138)
+
+
+Started GET "/app/assets/images/download-1-259x194.jpg" for ::1 at 2022-05-14 10:54:56 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-1-259x194.jpg"):
+  
+Started GET "/app/assets/images/download-2-259x194.jpg" for ::1 at 2022-05-14 10:54:57 +0530
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-14 10:54:57 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/..../assets/bootstrap.min.js" for ::1 at 2022-05-14 10:54:57 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-2-259x194.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/..../assets/bootstrap.min.js"):
+  
+Started GET "/" for ::1 at 2022-05-14 10:55:17 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 0.4ms | Allocations: 167)
+  Rendered home/_header.html.erb (Duration: 0.7ms | Allocations: 136)
+  Rendered layout layouts/application.html.erb (Duration: 6.4ms | Allocations: 2351)
+Completed 200 OK in 10ms (Views: 9.3ms | Allocations: 3160)
+
+
+Started GET "/app/assets/images/download-1-259x194.jpg" for ::1 at 2022-05-14 10:55:17 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/app/assets/images/download-2-259x194.jpg" for ::1 at 2022-05-14 10:55:17 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-1-259x194.jpg"):
+  
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-14 10:55:17 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-2-259x194.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  
+Started GET "/" for ::1 at 2022-05-14 10:55:59 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 0.3ms | Allocations: 167)
+  Rendered home/_header.html.erb (Duration: 0.8ms | Allocations: 136)
+  Rendered layout layouts/application.html.erb (Duration: 6.7ms | Allocations: 2350)
+Completed 200 OK in 10ms (Views: 9.3ms | Allocations: 3159)
+
+
+Started GET "/app/assets/images/download-1-259x194.jpg" for ::1 at 2022-05-14 10:55:59 +0530
+Started GET "/app/assets/images/download-2-259x194.jpg" for ::1 at 2022-05-14 10:55:59 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-1-259x194.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-2-259x194.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrapjs"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/bootstrapcss"):
+  
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-14 10:55:59 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  
+Started GET "/" for ::1 at 2022-05-14 10:56:01 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 0.0ms | Allocations: 20)
+  Rendered home/_header.html.erb (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 1599)
+Completed 200 OK in 4ms (Views: 4.0ms | Allocations: 1894)
+
+
+Started GET "/app/assets/images/download-2-259x194.jpg" for ::1 at 2022-05-14 10:56:01 +0530
+Started GET "/app/assets/images/download-1-259x194.jpg" for ::1 at 2022-05-14 10:56:01 +0530
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-14 10:56:01 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-2-259x194.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-1-259x194.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/bootstrapcss"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrapjs"):
+  
+Started GET "/" for ::1 at 2022-05-14 10:56:01 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 0.1ms | Allocations: 20)
+  Rendered home/_header.html.erb (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 1567)
+Completed 200 OK in 4ms (Views: 3.9ms | Allocations: 1844)
+
+
+Started GET "/app/assets/images/download-1-259x194.jpg" for ::1 at 2022-05-14 10:56:01 +0530
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-14 10:56:01 +0530
+Started GET "/app/assets/images/download-2-259x194.jpg" for ::1 at 2022-05-14 10:56:01 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-1-259x194.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-2-259x194.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/bootstrapcss"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrapjs"):
+  
+Started GET "/" for ::1 at 2022-05-14 10:56:09 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 0.1ms | Allocations: 20)
+  Rendered home/_header.html.erb (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 1560)
+Completed 200 OK in 5ms (Views: 4.2ms | Allocations: 1837)
+
+
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-14 10:56:09 +0530
+Started GET "/app/assets/images/download-2-259x194.jpg" for ::1 at 2022-05-14 10:56:09 +0530
+Started GET "/app/assets/images/download-1-259x194.jpg" for ::1 at 2022-05-14 10:56:09 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-2-259x194.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-1-259x194.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/bootstrapcss"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrapjs"):
+  
+Started GET "/" for ::1 at 2022-05-14 10:56:11 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 0.0ms | Allocations: 20)
+  Rendered home/_header.html.erb (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 1575)
+Completed 200 OK in 4ms (Views: 3.5ms | Allocations: 1852)
+
+
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-14 10:56:11 +0530
+Started GET "/app/assets/images/download-2-259x194.jpg" for ::1 at 2022-05-14 10:56:11 +0530
+Started GET "/app/assets/images/download-1-259x194.jpg" for ::1 at 2022-05-14 10:56:11 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-2-259x194.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-1-259x194.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/bootstrapcss"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrapjs"):
+  
+Started GET "/" for ::1 at 2022-05-14 10:56:16 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 0.0ms | Allocations: 20)
+  Rendered home/_header.html.erb (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 1566)
+Completed 200 OK in 5ms (Views: 4.8ms | Allocations: 1843)
+
+
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-14 10:56:16 +0530
+Started GET "/app/assets/images/download-2-259x194.jpg" for ::1 at 2022-05-14 10:56:16 +0530
+Started GET "/app/assets/images/download-1-259x194.jpg" for ::1 at 2022-05-14 10:56:16 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-2-259x194.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-1-259x194.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/bootstrapcss"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrapjs"):
+  
+Started GET "/" for ::1 at 2022-05-14 10:56:19 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 0.0ms | Allocations: 20)
+  Rendered home/_header.html.erb (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 1590)
+Completed 200 OK in 4ms (Views: 4.0ms | Allocations: 1867)
+
+
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-14 10:56:19 +0530
+Started GET "/app/assets/images/download-2-259x194.jpg" for ::1 at 2022-05-14 10:56:19 +0530
+Started GET "/app/assets/images/download-1-259x194.jpg" for ::1 at 2022-05-14 10:56:19 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-2-259x194.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-1-259x194.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/bootstrapcss"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrapjs"):
+  
+Started GET "/" for ::1 at 2022-05-14 10:58:28 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 0.4ms | Allocations: 167)
+  Rendered home/_header.html.erb (Duration: 0.3ms | Allocations: 136)
+  Rendered layout layouts/application.html.erb (Duration: 4.7ms | Allocations: 2348)
+Completed 200 OK in 8ms (Views: 7.1ms | Allocations: 3139)
+
+
+Started GET "/app/assets/images/download-1-259x194.jpg" for ::1 at 2022-05-14 10:58:29 +0530
+Started GET "/app/assets/images/download-2-259x194.jpg" for ::1 at 2022-05-14 10:58:29 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/bootstrap.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-1-259x194.jpg"):
+  
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-14 10:58:29 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-2-259x194.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.js"):
+  
+Started GET "/" for ::1 at 2022-05-14 10:58:49 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 0.4ms | Allocations: 167)
+  Rendered home/_header.html.erb (Duration: 0.3ms | Allocations: 136)
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 2338)
+Completed 200 OK in 9ms (Views: 7.7ms | Allocations: 3147)
+
+
+Started GET "/app/assets/images/download-1-259x194.jpg" for ::1 at 2022-05-14 10:58:49 +0530
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 10:58:49 +0530
+Started GET "/app/assets/images/download-2-259x194.jpg" for ::1 at 2022-05-14 10:58:49 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-1-259x194.jpg"):
+  
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 10:58:49 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-14 10:58:49 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-2-259x194.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  
+Started GET "/" for ::1 at 2022-05-14 11:00:21 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 0.5ms | Allocations: 171)
+  Rendered home/_header.html.erb (Duration: 0.4ms | Allocations: 136)
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 2344)
+Completed 200 OK in 11ms (Views: 9.8ms | Allocations: 3153)
+
+
+Started GET "/app/assets/images/download-1-259x194.jpg" for ::1 at 2022-05-14 11:00:21 +0530
+Started GET "/app/assets/images/download-2-259x194.jpg" for ::1 at 2022-05-14 11:00:21 +0530
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 11:00:21 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-1-259x194.jpg"):
+  
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 11:00:21 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-2-259x194.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-14 11:00:22 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 11:00:22 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+Started GET "/" for ::1 at 2022-05-14 11:00:23 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 0.0ms | Allocations: 20)
+  Rendered home/_header.html.erb (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 1554)
+Completed 200 OK in 4ms (Views: 3.5ms | Allocations: 1849)
+
+
+Started GET "/app/assets/images/download-2-259x194.jpg" for ::1 at 2022-05-14 11:00:23 +0530
+Started GET "/app/assets/images/download-1-259x194.jpg" for ::1 at 2022-05-14 11:00:23 +0530
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 11:00:23 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-2-259x194.jpg"):
+  
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 11:00:23 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-1-259x194.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-14 11:00:23 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 11:00:23 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+Started GET "/" for ::1 at 2022-05-14 11:03:30 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 0.4ms | Allocations: 170)
+  Rendered home/_header.html.erb (Duration: 0.3ms | Allocations: 137)
+  Rendered layout layouts/application.html.erb (Duration: 6.3ms | Allocations: 2347)
+Completed 200 OK in 10ms (Views: 8.9ms | Allocations: 3138)
+
+
+Started GET "/app/assets/images/download-1-259x194.jpg" for ::1 at 2022-05-14 11:03:30 +0530
+Started GET "/app/assets/images/download-2-259x194.jpg" for ::1 at 2022-05-14 11:03:30 +0530
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 11:03:30 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-1-259x194.jpg"):
+  
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 11:03:30 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-2-259x194.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-14 11:03:30 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 11:03:30 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+Started GET "/" for ::1 at 2022-05-14 11:04:07 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 0.6ms | Allocations: 170)
+  Rendered home/_header.html.erb (Duration: 0.3ms | Allocations: 136)
+  Rendered layout layouts/application.html.erb (Duration: 4.8ms | Allocations: 2354)
+Completed 200 OK in 8ms (Views: 7.6ms | Allocations: 3163)
+
+
+Started GET "/app/assets/images/download-1-259x194.jpg" for ::1 at 2022-05-14 11:04:07 +0530
+Started GET "/app/assets/images/download-2-259x194.jpg" for ::1 at 2022-05-14 11:04:07 +0530
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 11:04:07 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-1-259x194.jpg"):
+  
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 11:04:07 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-2-259x194.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-14 11:04:07 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 11:04:07 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+Started GET "/" for ::1 at 2022-05-14 11:08:37 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 0.6ms | Allocations: 170)
+  Rendered home/_header.html.erb (Duration: 0.4ms | Allocations: 279)
+  Rendered layout layouts/application.html.erb (Duration: 5.6ms | Allocations: 2499)
+Completed 200 OK in 9ms (Views: 8.6ms | Allocations: 3308)
+
+
+Started GET "/app/assets/images/download-1-259x194.jpg" for ::1 at 2022-05-14 11:08:37 +0530
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 11:08:37 +0530
+Started GET "/app/assets/images/download-2-259x194.jpg" for ::1 at 2022-05-14 11:08:37 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-1-259x194.jpg"):
+  
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 11:08:37 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-2-259x194.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-14 11:08:37 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 11:08:37 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+Started GET "/" for ::1 at 2022-05-14 11:09:12 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 0.5ms | Allocations: 170)
+  Rendered home/_header.html.erb (Duration: 0.4ms | Allocations: 241)
+  Rendered layout layouts/application.html.erb (Duration: 4.4ms | Allocations: 2470)
+Completed 200 OK in 8ms (Views: 7.0ms | Allocations: 3279)
+
+
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 11:09:12 +0530
+Started GET "/app/assets/images/download-1-259x194.jpg" for ::1 at 2022-05-14 11:09:12 +0530
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 11:09:12 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/app/assets/images/download-2-259x194.jpg" for ::1 at 2022-05-14 11:09:12 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-1-259x194.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-2-259x194.jpg"):
+  
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-14 11:09:13 +0530
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 11:09:13 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+Started GET "/" for ::1 at 2022-05-14 11:09:18 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 0.0ms | Allocations: 20)
+  Rendered home/_header.html.erb (Duration: 0.1ms | Allocations: 63)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 1626)
+Completed 200 OK in 4ms (Views: 3.5ms | Allocations: 1921)
+
+
+Started GET "/app/assets/images/download-2-259x194.jpg" for ::1 at 2022-05-14 11:09:18 +0530
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 11:09:18 +0530
+Started GET "/app/assets/images/download-1-259x194.jpg" for ::1 at 2022-05-14 11:09:18 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-2-259x194.jpg"):
+  
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 11:09:18 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-1-259x194.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-14 11:09:18 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 11:09:18 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+Started GET "/" for ::1 at 2022-05-14 11:15:28 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 0.6ms | Allocations: 170)
+  Rendered home/_header.html.erb (Duration: 1.5ms | Allocations: 240)
+  Rendered layout layouts/application.html.erb (Duration: 7.1ms | Allocations: 2449)
+Completed 200 OK in 11ms (Views: 9.7ms | Allocations: 3240)
+
+
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 11:15:28 +0530
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 11:15:28 +0530
+Started GET "/app/assets/images/download-1-259x194.jpg" for ::1 at 2022-05-14 11:15:28 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+Started GET "/app/assets/images/download-2-259x194.jpg" for ::1 at 2022-05-14 11:15:28 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/app/assets/jquery-3.6.0.js" for ::1 at 2022-05-14 11:15:28 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-1-259x194.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-2-259x194.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/jquery-3.6.0.js"):
+  
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 11:15:28 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-14 11:15:28 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  
+Started GET "/home/about" for ::1 at 2022-05-14 13:39:07 +0530
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [GET] "/home/about"):
+  
+Started GET "/home/about" for ::1 at 2022-05-14 13:43:21 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/home/about"):
+  
+Started GET "/" for ::1 at 2022-05-14 13:43:28 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 1.2ms | Allocations: 168)
+  Rendered home/_header.html.erb (Duration: 1.6ms | Allocations: 289)
+  Rendered layout layouts/application.html.erb (Duration: 312.6ms | Allocations: 32054)
+Completed 200 OK in 341ms (Views: 322.4ms | Allocations: 34092)
+
+
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 13:43:28 +0530
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 13:43:29 +0530
+Started GET "/app/assets/images/download-1-259x194.jpg" for ::1 at 2022-05-14 13:43:29 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/app/assets/images/download-2-259x194.jpg" for ::1 at 2022-05-14 13:43:29 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+Started GET "/app/assets/jquery-3.6.0.js" for ::1 at 2022-05-14 13:43:29 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-1-259x194.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-2-259x194.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/jquery-3.6.0.js"):
+  
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-14 13:43:29 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  
+Started GET "/" for ::1 at 2022-05-14 13:47:25 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 1.3ms | Allocations: 167)
+  Rendered home/_header.html.erb (Duration: 1.7ms | Allocations: 247)
+  Rendered layout layouts/application.html.erb (Duration: 16.9ms | Allocations: 2451)
+Completed 200 OK in 32ms (Views: 27.8ms | Allocations: 3261)
+
+
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 13:47:25 +0530
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 13:47:25 +0530
+Started GET "/app/assets/jquery-3.6.0.js" for ::1 at 2022-05-14 13:47:25 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/app/assets/images/download-1-259x194.jpg" for ::1 at 2022-05-14 13:47:25 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+Started GET "/app/assets/images/download-2-259x194.jpg" for ::1 at 2022-05-14 13:47:25 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/jquery-3.6.0.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-1-259x194.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-2-259x194.jpg"):
+  
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-14 13:47:26 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  
+Started GET "/" for ::1 at 2022-05-14 15:00:44 +0530
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 1.8ms | Allocations: 351)
+  Rendered home/_header.html.erb (Duration: 0.8ms | Allocations: 311)
+  Rendered layout layouts/application.html.erb (Duration: 141.0ms | Allocations: 26204)
+Completed 200 OK in 163ms (Views: 148.4ms | ActiveRecord: 0.0ms | Allocations: 29372)
+
+
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 15:00:44 +0530
+Started GET "/app/assets/images/download-1-259x194.jpg" for ::1 at 2022-05-14 15:00:44 +0530
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 15:00:44 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/app/assets/jquery-3.6.0.js" for ::1 at 2022-05-14 15:00:44 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-1-259x194.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/jquery-3.6.0.js"):
+  
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-14 15:00:45 +0530
+Started GET "/app/assets/images/download-2-259x194.jpg" for ::1 at 2022-05-14 15:00:45 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-2-259x194.jpg"):
+  
+Started GET "/" for ::1 at 2022-05-14 15:03:21 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 1.0ms | Allocations: 167)
+  Rendered home/_header.html.erb (Duration: 1.4ms | Allocations: 247)
+  Rendered layout layouts/application.html.erb (Duration: 14.8ms | Allocations: 2439)
+Completed 200 OK in 28ms (Views: 25.7ms | ActiveRecord: 0.0ms | Allocations: 3288)
+
+
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 15:03:21 +0530
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 15:03:21 +0530
+Started GET "/app/assets/images/download-1-259x194.jpg" for ::1 at 2022-05-14 15:03:21 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/app/assets/images/download-2-259x194.jpg" for ::1 at 2022-05-14 15:03:21 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+Started GET "/app/assets/jquery-3.6.0.js" for ::1 at 2022-05-14 15:03:21 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-1-259x194.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-2-259x194.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/jquery-3.6.0.js"):
+  
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-14 15:03:22 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  
+Started GET "/" for ::1 at 2022-05-14 15:12:04 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 1.3ms | Allocations: 167)
+  Rendered home/_header.html.erb (Duration: 27.3ms | Allocations: 5518)
+  Rendered layout layouts/application.html.erb (Duration: 42.6ms | Allocations: 7728)
+Completed 500 Internal Server Error in 55ms (Allocations: 8553)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `home_about_path' for #<ActionView::Base:0x0000000000c8c8>
+Did you mean?  home_about2_path):
+    31:       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    32:        
+    33:         <li class="nav-item">
+    34:         <%= link_to'about us',home_about_path,class:'nav-link'%>
+    35:         </li>
+    36:         
+    37:       </ul>
+  
+app/views/home/_header.html.erb:34
+app/views/layouts/application.html.erb:21
+Started GET "/" for ::1 at 2022-05-14 15:12:31 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 1.7ms | Allocations: 167)
+  Rendered home/_header.html.erb (Duration: 27.8ms | Allocations: 5446)
+  Rendered layout layouts/application.html.erb (Duration: 44.2ms | Allocations: 7653)
+Completed 500 Internal Server Error in 57ms (Allocations: 8458)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `home_about3_path' for #<ActionView::Base:0x0000000000cc88>
+Did you mean?  home_about2_path):
+    31:       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    32:        
+    33:         <li class="nav-item">
+    34:         <%= link_to'about us',home_about3_path,class:'nav-link'%>
+    35:         </li>
+    36:         
+    37:       </ul>
+  
+app/views/home/_header.html.erb:34
+app/views/layouts/application.html.erb:21
+Started GET "/" for ::1 at 2022-05-14 15:14:51 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 1.7ms | Allocations: 167)
+  Rendered home/_header.html.erb (Duration: 1.6ms | Allocations: 246)
+  Rendered layout layouts/application.html.erb (Duration: 17.8ms | Allocations: 2455)
+Completed 200 OK in 33ms (Views: 28.6ms | Allocations: 3287)
+
+
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 15:14:52 +0530
+Started GET "/app/assets/images/download-1-259x194.jpg" for ::1 at 2022-05-14 15:14:52 +0530
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 15:14:52 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/app/assets/images/download-2-259x194.jpg" for ::1 at 2022-05-14 15:14:52 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-1-259x194.jpg"):
+  
+Started GET "/app/assets/jquery-3.6.0.js" for ::1 at 2022-05-14 15:14:52 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-2-259x194.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/jquery-3.6.0.js"):
+  
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-14 15:14:52 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  
+Started GET "/about3.html.erb" for ::1 at 2022-05-14 15:14:58 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/about3.html.erb"):
+  
+Started GET "/about3.html.erb" for ::1 at 2022-05-14 15:15:38 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/about3.html.erb"):
+  
+Started GET "/about3.html.erb" for ::1 at 2022-05-14 15:15:39 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/about3.html.erb"):
+  
+Started GET "/" for ::1 at 2022-05-14 15:20:42 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 1.2ms | Allocations: 167)
+  Rendered home/_header.html.erb (Duration: 26.8ms | Allocations: 5441)
+  Rendered layout layouts/application.html.erb (Duration: 43.1ms | Allocations: 7636)
+Completed 500 Internal Server Error in 56ms (Allocations: 8444)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `home_about_path' for #<ActionView::Base:0x0000000000ea88>
+Did you mean?  home_about2_path):
+    31:       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    32:        
+    33:       <li class="nav-item">
+    34:       <%= link_to'login',home_about_path,class:'nav-link'%>
+    35:       </li>
+    36:       
+    37:     </ul>
+  
+app/views/home/_header.html.erb:34
+app/views/layouts/application.html.erb:21
+Started GET "/" for ::1 at 2022-05-14 15:21:17 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 1.1ms | Allocations: 167)
+  Rendered home/_header.html.erb (Duration: 28.8ms | Allocations: 5442)
+  Rendered layout layouts/application.html.erb (Duration: 46.5ms | Allocations: 7637)
+Completed 500 Internal Server Error in 59ms (Allocations: 8445)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `home_about3_path' for #<ActionView::Base:0x0000000000edf8>
+Did you mean?  home_about2_path):
+    31:       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    32:        
+    33:       <li class="nav-item">
+    34:       <%= link_to'login',home_about3_path,class:'nav-link'%>
+    35:       </li>
+    36:       
+    37:     </ul>
+  
+app/views/home/_header.html.erb:34
+app/views/layouts/application.html.erb:21
+Started GET "/" for ::1 at 2022-05-14 15:21:46 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 1.1ms | Allocations: 167)
+  Rendered home/_header.html.erb (Duration: 1.4ms | Allocations: 316)
+  Rendered layout layouts/application.html.erb (Duration: 16.6ms | Allocations: 2513)
+Completed 200 OK in 29ms (Views: 25.5ms | Allocations: 3345)
+
+
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 15:21:47 +0530
+Started GET "/app/assets/images/download-1-259x194.jpg" for ::1 at 2022-05-14 15:21:47 +0530
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 15:21:47 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/app/assets/jquery-3.6.0.js" for ::1 at 2022-05-14 15:21:47 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-1-259x194.jpg"):
+  
+Started GET "/app/assets/images/download-2-259x194.jpg" for ::1 at 2022-05-14 15:21:47 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/jquery-3.6.0.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-2-259x194.jpg"):
+  
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-14 15:21:47 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  
+Started GET "/home/about2" for ::1 at 2022-05-14 15:21:57 +0530
+Processing by HomeController#about2 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about2.html.erb within layouts/application
+  Rendered home/about2.html.erb within layouts/application (Duration: 1.7ms | Allocations: 360)
+  Rendered home/_header.html.erb (Duration: 0.5ms | Allocations: 101)
+  Rendered layout layouts/application.html.erb (Duration: 12.2ms | Allocations: 1994)
+Completed 200 OK in 16ms (Views: 13.6ms | Allocations: 2343)
+
+
+Started GET "/home/assets/theme/css/style.css" for ::1 at 2022-05-14 15:21:58 +0530
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 15:21:58 +0530
+Started GET "/home/assets/bootstrap/css/bootstrap-reboot.min.css" for ::1 at 2022-05-14 15:21:58 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/home/assets/theme/css/style.css"):
+  
+Started GET "/home/assets/bootstrap/css/bootstrap-grid.min.css" for ::1 at 2022-05-14 15:21:58 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/home/assets/bootstrap/css/bootstrap.min.css" for ::1 at 2022-05-14 15:21:58 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/home/assets/bootstrap/css/bootstrap-reboot.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/home/assets/bootstrap/css/bootstrap-grid.min.css"):
+  
+Started GET "/home/assets/mobirise/css/mbr-additional.css" for ::1 at 2022-05-14 15:21:58 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/home/assets/bootstrap/css/bootstrap.min.css"):
+  
+Started GET "/home/assets/web/assets/mobirise-icons2/mobirise2.css" for ::1 at 2022-05-14 15:21:59 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/home/assets/mobirise/css/mbr-additional.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/home/assets/web/assets/mobirise-icons2/mobirise2.css"):
+  
+Started GET "/app/assets/jquery-3.6.0.js" for ::1 at 2022-05-14 15:21:59 +0530
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 15:21:59 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/jquery-3.6.0.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+Started GET "/home/assets/images/30ki-nitjpg5-1-1200x583.jpg" for ::1 at 2022-05-14 15:21:59 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/30ki-nitjpg5-1-1200x583.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/download-1-259x194.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/home/assets/images/30ki-nitjpg5-1-1200x583.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/download-2-259x194.jpg"):
+  
+Started GET "/app/assets/jquery-3.6.0.js" for ::1 at 2022-05-14 15:23:52 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/jquery-3.6.0.js"):
+  
+Started GET "/" for ::1 at 2022-05-14 15:23:54 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 1.1ms | Allocations: 167)
+  Rendered home/_header.html.erb (Duration: 1.7ms | Allocations: 314)
+  Rendered layout layouts/application.html.erb (Duration: 15.7ms | Allocations: 2511)
+Completed 200 OK in 30ms (Views: 26.7ms | Allocations: 3290)
+
+
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 15:23:54 +0530
+Started GET "/app/assets/images/download-1-259x194.jpg" for ::1 at 2022-05-14 15:23:54 +0530
+Started GET "/app/assets/jquery-3.6.0.js" for ::1 at 2022-05-14 15:23:54 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/app/assets/images/download-2-259x194.jpg" for ::1 at 2022-05-14 15:23:54 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-1-259x194.jpg"):
+  
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 15:23:54 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/jquery-3.6.0.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-2-259x194.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-14 15:23:55 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  
+Started GET "/home/about2" for ::1 at 2022-05-14 15:23:57 +0530
+Processing by HomeController#about2 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about2.html.erb within layouts/application
+  Rendered home/about2.html.erb within layouts/application (Duration: 1.0ms | Allocations: 124)
+  Rendered home/_header.html.erb (Duration: 0.4ms | Allocations: 101)
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 1755)
+Completed 200 OK in 16ms (Views: 13.0ms | Allocations: 2102)
+
+
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 15:23:57 +0530
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 15:23:57 +0530
+Started GET "/app/assets/jquery-3.6.0.js" for ::1 at 2022-05-14 15:23:57 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/jquery-3.6.0.js"):
+  
+Started GET "/home/about2" for ::1 at 2022-05-14 15:33:08 +0530
+Processing by HomeController#about2 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about2.html.erb within layouts/application
+  Rendered home/about2.html.erb within layouts/application (Duration: 1.2ms | Allocations: 150)
+  Rendered home/_header.html.erb (Duration: 1.5ms | Allocations: 314)
+  Rendered layout layouts/application.html.erb (Duration: 17.0ms | Allocations: 2516)
+Completed 200 OK in 30ms (Views: 27.3ms | Allocations: 3307)
+
+
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 15:33:08 +0530
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 15:33:08 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+Started GET "/" for ::1 at 2022-05-14 15:33:14 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 1.1ms | Allocations: 140)
+  Rendered home/_header.html.erb (Duration: 0.4ms | Allocations: 101)
+  Rendered layout layouts/application.html.erb (Duration: 13.2ms | Allocations: 1771)
+Completed 200 OK in 18ms (Views: 14.8ms | Allocations: 2142)
+
+
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 15:33:14 +0530
+Started GET "/app/assets/images/download-1-259x194.jpg" for ::1 at 2022-05-14 15:33:14 +0530
+Started GET "/app/assets/images/download-2-259x194.jpg" for ::1 at 2022-05-14 15:33:14 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-14 15:33:15 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-1-259x194.jpg"):
+  
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 15:33:15 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-2-259x194.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+Started GET "/home/about2" for ::1 at 2022-05-14 15:34:03 +0530
+Processing by HomeController#about2 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about2.html.erb within layouts/application
+  Rendered home/about2.html.erb within layouts/application (Duration: 0.1ms | Allocations: 20)
+  Rendered home/_header.html.erb (Duration: 0.4ms | Allocations: 101)
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 1648)
+Completed 200 OK in 12ms (Views: 10.7ms | Allocations: 1924)
+
+
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 15:34:03 +0530
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 15:34:03 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+Started GET "/" for ::1 at 2022-05-14 15:37:47 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 4.5ms | Allocations: 170)
+  Rendered home/_header.html.erb (Duration: 2.2ms | Allocations: 314)
+  Rendered layout layouts/application.html.erb (Duration: 21.4ms | Allocations: 2515)
+Completed 200 OK in 34ms (Views: 31.1ms | Allocations: 3329)
+
+
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 15:37:47 +0530
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 15:37:47 +0530
+Started GET "/app/assets/images/download-1-259x194.jpg" for ::1 at 2022-05-14 15:37:47 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+Started GET "/app/assets/images/download-2-259x194.jpg" for ::1 at 2022-05-14 15:37:47 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-1-259x194.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-2-259x194.jpg"):
+  
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-14 15:37:47 +0530
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 15:37:48 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+Started GET "/" for ::1 at 2022-05-14 15:37:50 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 0.1ms | Allocations: 20)
+  Rendered home/_header.html.erb (Duration: 0.4ms | Allocations: 101)
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 1654)
+Completed 200 OK in 13ms (Views: 11.2ms | Allocations: 1948)
+
+
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 15:37:50 +0530
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 15:37:50 +0530
+Started GET "/app/assets/images/download-2-259x194.jpg" for ::1 at 2022-05-14 15:37:50 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/app/assets/images/download-1-259x194.jpg" for ::1 at 2022-05-14 15:37:50 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-2-259x194.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-1-259x194.jpg"):
+  
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-14 15:37:50 +0530
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 15:37:51 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+Started GET "/home/about2" for ::1 at 2022-05-14 15:38:48 +0530
+Processing by HomeController#about2 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about2.html.erb within layouts/application
+  Rendered home/about2.html.erb within layouts/application (Duration: 1.1ms | Allocations: 123)
+  Rendered home/_header.html.erb (Duration: 0.4ms | Allocations: 101)
+  Rendered layout layouts/application.html.erb (Duration: 11.6ms | Allocations: 1757)
+Completed 200 OK in 16ms (Views: 13.3ms | Allocations: 2086)
+
+
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 15:38:48 +0530
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 15:38:48 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+Started GET "/" for ::1 at 2022-05-14 15:48:10 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 2.3ms | Allocations: 296)
+  Rendered home/_header.html.erb (Duration: 1.7ms | Allocations: 314)
+  Rendered layout layouts/application.html.erb (Duration: 17.8ms | Allocations: 2630)
+Completed 200 OK in 30ms (Views: 27.0ms | Allocations: 3445)
+
+
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 15:48:10 +0530
+Started GET "/app/assets/images/download-1-259x194.jpg" for ::1 at 2022-05-14 15:48:10 +0530
+Started GET "/app/assets/images/download-2-259x194.jpg" for ::1 at 2022-05-14 15:48:10 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 15:48:11 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-1-259x194.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-2-259x194.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-14 15:48:11 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  
+Started GET "/app/assets/images/download-1-259x194.jpg" for ::1 at 2022-05-14 15:48:11 +0530
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 15:48:11 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-1-259x194.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+Started GET "/" for ::1 at 2022-05-14 15:48:14 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 0.3ms | Allocations: 70)
+  Rendered home/_header.html.erb (Duration: 0.4ms | Allocations: 101)
+  Rendered layout layouts/application.html.erb (Duration: 10.7ms | Allocations: 1697)
+Completed 200 OK in 21ms (Views: 19.8ms | Allocations: 1991)
+
+
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 15:48:14 +0530
+Started GET "/app/assets/images/download-2-259x194.jpg" for ::1 at 2022-05-14 15:48:14 +0530
+Started GET "/app/assets/images/download-1-259x194.jpg" for ::1 at 2022-05-14 15:48:14 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 15:48:14 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-2-259x194.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-1-259x194.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-14 15:48:15 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  
+Started GET "/app/assets/images/download-1-259x194.jpg" for ::1 at 2022-05-14 15:48:15 +0530
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 15:48:15 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-1-259x194.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+Started GET "/" for ::1 at 2022-05-14 15:51:26 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 2.2ms | Allocations: 283)
+  Rendered home/_header.html.erb (Duration: 1.8ms | Allocations: 314)
+  Rendered layout layouts/application.html.erb (Duration: 16.7ms | Allocations: 2602)
+Completed 200 OK in 32ms (Views: 28.4ms | Allocations: 3416)
+
+
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 15:51:26 +0530
+Started GET "/app/assets/images/download-1-259x194.jpg" for ::1 at 2022-05-14 15:51:26 +0530
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 15:51:27 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/app/assets/images/download-2-259x194.jpg" for ::1 at 2022-05-14 15:51:27 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-1-259x194.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-2-259x194.jpg"):
+  
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-14 15:51:27 +0530
+Started GET "/app/assets/images/download-1-259x194.jpg" for ::1 at 2022-05-14 15:51:27 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 15:51:27 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-1-259x194.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+Started GET "/home/about2" for ::1 at 2022-05-14 15:51:32 +0530
+Processing by HomeController#about2 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about2.html.erb within layouts/application
+  Rendered home/about2.html.erb within layouts/application (Duration: 1.1ms | Allocations: 123)
+  Rendered home/_header.html.erb (Duration: 0.4ms | Allocations: 101)
+  Rendered layout layouts/application.html.erb (Duration: 10.2ms | Allocations: 1754)
+Completed 200 OK in 14ms (Views: 11.5ms | Allocations: 2101)
+
+
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 15:51:32 +0530
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 15:51:32 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+Started GET "/home/about2" for ::1 at 2022-05-14 15:57:25 +0530
+Processing by HomeController#about2 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about2.html.erb within layouts/application
+  Rendered home/about2.html.erb within layouts/application (Duration: 0.2ms | Allocations: 20)
+  Rendered home/_header.html.erb (Duration: 0.4ms | Allocations: 101)
+  Rendered layout layouts/application.html.erb (Duration: 12.9ms | Allocations: 1657)
+Completed 200 OK in 17ms (Views: 14.8ms | Allocations: 1933)
+
+
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 15:57:25 +0530
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 15:57:25 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/" for ::1 at 2022-05-14 16:01:16 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 9.2ms | Allocations: 1044)
+  Rendered home/_header.html.erb (Duration: 1.8ms | Allocations: 314)
+  Rendered layout layouts/application.html.erb (Duration: 24.5ms | Allocations: 3153)
+Completed 200 OK in 37ms (Views: 33.3ms | Allocations: 3967)
+
+
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 16:01:16 +0530
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 16:01:16 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/app/assets/images/download-1-259x194.jpg" for ::1 at 2022-05-14 16:01:16 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-1-259x194.jpg"):
+  
+Started GET "/app/assets/images/download-2-259x194.jpg" for ::1 at 2022-05-14 16:01:17 +0530
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-14 16:01:17 +0530
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 16:01:17 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-2-259x194.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+Started GET "/" for ::1 at 2022-05-14 16:01:55 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 6.0ms | Allocations: 1034)
+  Rendered home/_header.html.erb (Duration: 2.0ms | Allocations: 314)
+  Rendered layout layouts/application.html.erb (Duration: 19.2ms | Allocations: 3149)
+Completed 200 OK in 31ms (Views: 28.3ms | Allocations: 3981)
+
+
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 16:01:55 +0530
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 16:01:55 +0530
+Started GET "/download-2-259x194.jpg" for ::1 at 2022-05-14 16:01:55 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+Started GET "/app/assets/images/download-1-259x194.jpg" for ::1 at 2022-05-14 16:01:55 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/download-2-259x194.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-1-259x194.jpg"):
+  
+Started GET "/download-259x195.jpg" for ::1 at 2022-05-14 16:01:55 +0530
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 16:01:56 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/download-259x195.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+Started GET "/" for ::1 at 2022-05-14 16:06:19 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 20.9ms | Allocations: 2210)
+  Rendered home/_header.html.erb (Duration: 2.8ms | Allocations: 314)
+  Rendered layout layouts/application.html.erb (Duration: 35.9ms | Allocations: 4301)
+Completed 200 OK in 51ms (Views: 47.5ms | Allocations: 5133)
+
+
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 16:06:19 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 16:06:19 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 16:06:19 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+Started GET "/" for ::1 at 2022-05-14 16:08:15 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 14.3ms | Allocations: 2176)
+  Rendered home/_header.html.erb (Duration: 1.6ms | Allocations: 314)
+  Rendered layout layouts/application.html.erb (Duration: 28.7ms | Allocations: 4276)
+Completed 200 OK in 42ms (Views: 38.2ms | Allocations: 5108)
+
+
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 16:08:15 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/bootstrap.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.js"):
+  
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 16:08:15 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+Started GET "/" for ::1 at 2022-05-14 16:08:36 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 13.5ms | Allocations: 2177)
+  Rendered home/_header.html.erb (Duration: 2.0ms | Allocations: 314)
+  Rendered layout layouts/application.html.erb (Duration: 26.4ms | Allocations: 4265)
+Completed 200 OK in 40ms (Views: 36.1ms | Allocations: 5097)
+
+
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 16:08:36 +0530
+Started GET "/bootstrap.min.js" for ::1 at 2022-05-14 16:08:36 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/bootstrap.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 16:08:37 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+Started GET "/" for ::1 at 2022-05-14 16:14:13 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 1.2ms | Allocations: 171)
+  Rendered home/_header.html.erb (Duration: 1.6ms | Allocations: 314)
+  Rendered layout layouts/application.html.erb (Duration: 17.6ms | Allocations: 2533)
+Completed 200 OK in 30ms (Views: 26.7ms | Allocations: 3365)
+
+
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 16:14:13 +0530
+Started GET "/images-224x225.jpg" for ::1 at 2022-05-14 16:14:13 +0530
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 16:14:13 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/30ki-nitjpg5-1-1200x583.jpg" for ::1 at 2022-05-14 16:14:13 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/images-224x225.jpg"):
+  
+Started GET "/download-1-259x194.jpg" for ::1 at 2022-05-14 16:14:14 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/30ki-nitjpg5-1-1200x583.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/download-1-259x194.jpg"):
+  
+Started GET "/" for ::1 at 2022-05-14 16:15:28 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 1.3ms | Allocations: 171)
+  Rendered home/_header.html.erb (Duration: 1.5ms | Allocations: 314)
+  Rendered layout layouts/application.html.erb (Duration: 16.2ms | Allocations: 2518)
+Completed 200 OK in 28ms (Views: 25.1ms | Allocations: 3350)
+
+
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 16:15:28 +0530
+Started GET "/images-224x225.jpg" for ::1 at 2022-05-14 16:15:28 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/30ki-nitjpg5-1-1200x583.jpg" for ::1 at 2022-05-14 16:15:28 +0530
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 16:15:28 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/images-224x225.jpg"):
+  
+Started GET "/download-1-259x194.jpg" for ::1 at 2022-05-14 16:15:28 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/30ki-nitjpg5-1-1200x583.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/download-1-259x194.jpg"):
+  
+Started GET "/" for ::1 at 2022-05-14 16:18:07 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 1.2ms | Allocations: 190)
+  Rendered home/_header.html.erb (Duration: 1.6ms | Allocations: 314)
+  Rendered layout layouts/application.html.erb (Duration: 17.1ms | Allocations: 2543)
+Completed 200 OK in 29ms (Views: 26.1ms | Allocations: 3375)
+
+
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 16:18:07 +0530
+Started GET "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg" for ::1 at 2022-05-14 16:18:08 +0530
+Started GET "/app/assets/images/images-224x225.jpg" for ::1 at 2022-05-14 16:18:08 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-14 16:18:08 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg"):
+  
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 16:18:08 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/images-224x225.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+Started GET "/" for ::1 at 2022-05-14 16:18:17 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 0.1ms | Allocations: 20)
+  Rendered home/_header.html.erb (Duration: 0.4ms | Allocations: 101)
+  Rendered layout layouts/application.html.erb (Duration: 10.0ms | Allocations: 1651)
+Completed 200 OK in 14ms (Views: 12.1ms | Allocations: 1945)
+
+
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 16:18:18 +0530
+Started GET "/app/assets/images/images-224x225.jpg" for ::1 at 2022-05-14 16:18:18 +0530
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-14 16:18:18 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/images-224x225.jpg"):
+  
+Started GET "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg" for ::1 at 2022-05-14 16:18:18 +0530
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 16:18:18 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+Started GET "/home/about2" for ::1 at 2022-05-14 16:19:12 +0530
+Processing by HomeController#about2 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about2.html.erb within layouts/application
+  Rendered home/about2.html.erb within layouts/application (Duration: 1.1ms | Allocations: 123)
+  Rendered home/_header.html.erb (Duration: 0.4ms | Allocations: 101)
+  Rendered layout layouts/application.html.erb (Duration: 36.1ms | Allocations: 1769)
+Completed 200 OK in 47ms (Views: 44.3ms | Allocations: 2098)
+
+
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 16:19:12 +0530
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 16:19:12 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/home/about2" for ::1 at 2022-05-14 16:20:45 +0530
+Processing by HomeController#about2 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about2.html.erb within layouts/application
+  Rendered home/about2.html.erb within layouts/application (Duration: 1.0ms | Allocations: 144)
+  Rendered home/_header.html.erb (Duration: 1.5ms | Allocations: 314)
+  Rendered layout layouts/application.html.erb (Duration: 16.9ms | Allocations: 2515)
+Completed 200 OK in 28ms (Views: 25.5ms | Allocations: 3305)
+
+
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 16:20:45 +0530
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 16:20:45 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+Started GET "/home/about2" for ::1 at 2022-05-14 16:20:47 +0530
+Processing by HomeController#about2 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about2.html.erb within layouts/application
+  Rendered home/about2.html.erb within layouts/application (Duration: 0.1ms | Allocations: 20)
+  Rendered home/_header.html.erb (Duration: 0.5ms | Allocations: 101)
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 1663)
+Completed 200 OK in 14ms (Views: 12.9ms | Allocations: 1957)
+
+
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 16:20:48 +0530
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 16:20:48 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+Started GET "/home/about2" for ::1 at 2022-05-14 16:28:02 +0530
+Processing by HomeController#about2 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about2.html.erb within layouts/application
+  Rendered home/about2.html.erb within layouts/application (Duration: 1.5ms | Allocations: 337)
+  Rendered home/_header.html.erb (Duration: 1.9ms | Allocations: 314)
+  Rendered layout layouts/application.html.erb (Duration: 16.6ms | Allocations: 2690)
+Completed 200 OK in 30ms (Views: 26.5ms | Allocations: 3480)
+
+
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 16:28:02 +0530
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 16:28:02 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+Started GET "/" for ::1 at 2022-05-14 16:29:49 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 1.3ms | Allocations: 162)
+  Rendered home/_header.html.erb (Duration: 0.4ms | Allocations: 101)
+  Rendered layout layouts/application.html.erb (Duration: 11.0ms | Allocations: 1803)
+Completed 200 OK in 16ms (Views: 13.2ms | Allocations: 2174)
+
+
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 16:29:49 +0530
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 16:29:49 +0530
+Started GET "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg" for ::1 at 2022-05-14 16:29:49 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/app/assets/images/images-224x225.jpg" for ::1 at 2022-05-14 16:29:49 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-14 16:29:50 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/images-224x225.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  
+Started GET "/home/about2" for ::1 at 2022-05-14 16:29:53 +0530
+Processing by HomeController#about2 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about2.html.erb within layouts/application
+  Rendered home/about2.html.erb within layouts/application (Duration: 0.1ms | Allocations: 20)
+  Rendered home/_header.html.erb (Duration: 0.3ms | Allocations: 101)
+  Rendered layout layouts/application.html.erb (Duration: 9.8ms | Allocations: 1651)
+Completed 200 OK in 13ms (Views: 11.3ms | Allocations: 1927)
+
+
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 16:29:53 +0530
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 16:29:53 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+Started GET "/" for ::1 at 2022-05-14 16:30:02 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 0.1ms | Allocations: 20)
+  Rendered home/_header.html.erb (Duration: 0.4ms | Allocations: 101)
+  Rendered layout layouts/application.html.erb (Duration: 11.5ms | Allocations: 1660)
+Completed 200 OK in 15ms (Views: 13.2ms | Allocations: 1936)
+
+
+Started GET "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg" for ::1 at 2022-05-14 16:30:02 +0530
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 16:30:03 +0530
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-14 16:30:03 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg"):
+  
+Started GET "/app/assets/images/images-224x225.jpg" for ::1 at 2022-05-14 16:30:03 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 16:30:03 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/images-224x225.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+Started GET "/home/about2" for ::1 at 2022-05-14 16:30:05 +0530
+Processing by HomeController#about2 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about2.html.erb within layouts/application
+  Rendered home/about2.html.erb within layouts/application (Duration: 0.1ms | Allocations: 20)
+  Rendered home/_header.html.erb (Duration: 0.4ms | Allocations: 101)
+  Rendered layout layouts/application.html.erb (Duration: 10.9ms | Allocations: 1648)
+Completed 200 OK in 14ms (Views: 12.6ms | Allocations: 1924)
+
+
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 16:30:05 +0530
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 16:30:05 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/home/about2" for ::1 at 2022-05-14 16:40:47 +0530
+Processing by HomeController#about2 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about2.html.erb within layouts/application
+  Rendered home/about2.html.erb within layouts/application (Duration: 1.7ms | Allocations: 336)
+  Rendered home/_header.html.erb (Duration: 2.4ms | Allocations: 387)
+  Rendered layout layouts/application.html.erb (Duration: 18.4ms | Allocations: 2891)
+Completed 200 OK in 32ms (Views: 28.2ms | Allocations: 3686)
+
+
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 16:40:47 +0530
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 16:40:47 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/" for ::1 at 2022-05-14 16:40:49 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 1.1ms | Allocations: 162)
+  Rendered home/_header.html.erb (Duration: 0.3ms | Allocations: 101)
+  Rendered layout layouts/application.html.erb (Duration: 11.1ms | Allocations: 1803)
+Completed 200 OK in 15ms (Views: 12.8ms | Allocations: 2174)
+
+
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 16:40:49 +0530
+Started GET "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg" for ::1 at 2022-05-14 16:40:49 +0530
+Started GET "/app/assets/images/images-224x225.jpg" for ::1 at 2022-05-14 16:40:50 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-14 16:40:50 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg"):
+  
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 16:40:50 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/images-224x225.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+Started GET "/" for ::1 at 2022-05-14 16:40:50 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 0.1ms | Allocations: 20)
+  Rendered home/_header.html.erb (Duration: 0.4ms | Allocations: 101)
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 1661)
+Completed 200 OK in 13ms (Views: 11.0ms | Allocations: 1937)
+
+
+Started GET "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg" for ::1 at 2022-05-14 16:40:51 +0530
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 16:40:51 +0530
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 16:40:51 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg"):
+  
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-14 16:40:51 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/app/assets/images/images-224x225.jpg" for ::1 at 2022-05-14 16:40:51 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/images-224x225.jpg"):
+  
+Started GET "/home/about2" for ::1 at 2022-05-14 16:40:55 +0530
+Processing by HomeController#about2 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about2.html.erb within layouts/application
+  Rendered home/about2.html.erb within layouts/application (Duration: 0.1ms | Allocations: 20)
+  Rendered home/_header.html.erb (Duration: 0.4ms | Allocations: 101)
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 1651)
+Completed 200 OK in 13ms (Views: 11.8ms | Allocations: 1927)
+
+
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 16:40:56 +0530
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 16:40:56 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+Started GET "/" for ::1 at 2022-05-14 16:42:50 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 1.1ms | Allocations: 189)
+  Rendered home/_header.html.erb (Duration: 1.8ms | Allocations: 573)
+  Rendered layout layouts/application.html.erb (Duration: 15.5ms | Allocations: 2923)
+Completed 200 OK in 27ms (Views: 24.0ms | Allocations: 3737)
+
+
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 16:42:50 +0530
+Started GET "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg" for ::1 at 2022-05-14 16:42:50 +0530
+Started GET "/app/assets/images/images-224x225.jpg" for ::1 at 2022-05-14 16:42:50 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 16:42:50 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/images-224x225.jpg"):
+  
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-14 16:42:50 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  
+Started GET "/" for ::1 at 2022-05-14 16:42:51 +0530
+Started GET "/" for ::1 at 2022-05-14 16:42:51 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 0.2ms | Allocations: 34)
+  Rendered home/_header.html.erb (Duration: 0.4ms | Allocations: 113)
+  Rendered layout layouts/application.html.erb (Duration: 13.5ms | Allocations: 1750)
+Completed 200 OK in 17ms (Views: 15.6ms | Allocations: 2057)
+
+
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 0.1ms | Allocations: 20)
+  Rendered home/_header.html.erb (Duration: 0.3ms | Allocations: 101)
+  Rendered layout layouts/application.html.erb (Duration: 10.7ms | Allocations: 1680)
+Completed 200 OK in 13ms (Views: 12.2ms | Allocations: 1956)
+
+
+Started GET "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg" for ::1 at 2022-05-14 16:42:51 +0530
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 16:42:51 +0530
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 16:42:51 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg"):
+  
+Started GET "/app/assets/images/images-224x225.jpg" for ::1 at 2022-05-14 16:42:51 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-14 16:42:51 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/images-224x225.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  
+Started GET "/" for ::1 at 2022-05-14 16:42:59 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 0.1ms | Allocations: 20)
+  Rendered home/_header.html.erb (Duration: 0.4ms | Allocations: 101)
+  Rendered layout layouts/application.html.erb (Duration: 11.8ms | Allocations: 1657)
+Completed 200 OK in 15ms (Views: 13.5ms | Allocations: 1933)
+
+
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-14 16:42:59 +0530
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 16:42:59 +0530
+Started GET "/app/assets/images/images-224x225.jpg" for ::1 at 2022-05-14 16:42:59 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  
+Started GET "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg" for ::1 at 2022-05-14 16:42:59 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 16:43:00 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/images-224x225.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 16:44:50 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/" for ::1 at 2022-05-14 16:46:44 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 1.3ms | Allocations: 189)
+  Rendered home/_header.html.erb (Duration: 2.5ms | Allocations: 503)
+  Rendered layout layouts/application.html.erb (Duration: 18.0ms | Allocations: 2851)
+Completed 200 OK in 31ms (Views: 27.8ms | Allocations: 3665)
+
+
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 16:46:45 +0530
+Started GET "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg" for ::1 at 2022-05-14 16:46:45 +0530
+Started GET "/app/assets/images/images-224x225.jpg" for ::1 at 2022-05-14 16:46:45 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-14 16:46:45 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg"):
+  
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 16:46:45 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/images-224x225.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+Started GET "/" for ::1 at 2022-05-14 16:47:13 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 0.8ms | Allocations: 189)
+  Rendered home/_header.html.erb (Duration: 1.4ms | Allocations: 312)
+  Rendered layout layouts/application.html.erb (Duration: 15.4ms | Allocations: 2659)
+Completed 200 OK in 27ms (Views: 24.5ms | Allocations: 3491)
+
+
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 16:47:13 +0530
+Started GET "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg" for ::1 at 2022-05-14 16:47:13 +0530
+Started GET "/app/assets/images/images-224x225.jpg" for ::1 at 2022-05-14 16:47:13 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-14 16:47:13 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg"):
+  
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 16:47:13 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/images-224x225.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+Started GET "/" for ::1 at 2022-05-14 16:48:25 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 1.5ms | Allocations: 190)
+  Rendered home/_header.html.erb (Duration: 1.4ms | Allocations: 312)
+  Rendered layout layouts/application.html.erb (Duration: 15.7ms | Allocations: 2663)
+Completed 200 OK in 27ms (Views: 23.9ms | Allocations: 3495)
+
+
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 16:48:25 +0530
+Started GET "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg" for ::1 at 2022-05-14 16:48:25 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/app/assets/images/images-224x225.jpg" for ::1 at 2022-05-14 16:48:25 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg"):
+  
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 16:48:25 +0530
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-14 16:48:26 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/images-224x225.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  
+Started GET "/" for ::1 at 2022-05-14 16:48:44 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 1.1ms | Allocations: 189)
+  Rendered home/_header.html.erb (Duration: 2.0ms | Allocations: 312)
+  Rendered layout layouts/application.html.erb (Duration: 17.0ms | Allocations: 2650)
+Completed 200 OK in 31ms (Views: 26.8ms | Allocations: 3482)
+
+
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 16:48:45 +0530
+Started GET "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg" for ::1 at 2022-05-14 16:48:45 +0530
+Started GET "/app/assets/images/images-224x225.jpg" for ::1 at 2022-05-14 16:48:45 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 16:48:45 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg"):
+  
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-14 16:48:45 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/images-224x225.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  
+Started GET "/" for ::1 at 2022-05-14 16:51:17 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 1.7ms | Allocations: 189)
+  Rendered home/_header.html.erb (Duration: 1.6ms | Allocations: 318)
+  Rendered layout layouts/application.html.erb (Duration: 16.5ms | Allocations: 2665)
+Completed 200 OK in 28ms (Views: 24.8ms | Allocations: 3497)
+
+
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 16:51:17 +0530
+Started GET "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg" for ::1 at 2022-05-14 16:51:17 +0530
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 16:51:17 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-14 16:51:17 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg"):
+  
+Started GET "/app/assets/images/images-224x225.jpg" for ::1 at 2022-05-14 16:51:17 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/images-224x225.jpg"):
+  
+Started GET "/" for ::1 at 2022-05-14 16:54:49 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 1.2ms | Allocations: 189)
+  Rendered home/_header.html.erb (Duration: 1.7ms | Allocations: 319)
+  Rendered layout layouts/application.html.erb (Duration: 17.8ms | Allocations: 2690)
+Completed 200 OK in 31ms (Views: 27.9ms | Allocations: 3522)
+
+
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 16:54:49 +0530
+Started GET "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg" for ::1 at 2022-05-14 16:54:49 +0530
+Started GET "/app/assets/images/images-224x225.jpg" for ::1 at 2022-05-14 16:54:49 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-14 16:54:49 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg"):
+  
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 16:54:49 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/images-224x225.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+Started GET "/" for ::1 at 2022-05-14 16:55:13 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 1.7ms | Allocations: 189)
+  Rendered home/_header.html.erb (Duration: 1.5ms | Allocations: 318)
+  Rendered layout layouts/application.html.erb (Duration: 16.7ms | Allocations: 2662)
+Completed 200 OK in 31ms (Views: 26.8ms | Allocations: 3494)
+
+
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 16:55:13 +0530
+Started GET "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg" for ::1 at 2022-05-14 16:55:13 +0530
+Started GET "/app/assets/images/images-224x225.jpg" for ::1 at 2022-05-14 16:55:13 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 16:55:13 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg"):
+  
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-14 16:55:13 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/images-224x225.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  
+Started GET "/" for ::1 at 2022-05-14 16:55:39 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 1.3ms | Allocations: 189)
+  Rendered home/_header.html.erb (Duration: 1.3ms | Allocations: 318)
+  Rendered layout layouts/application.html.erb (Duration: 14.9ms | Allocations: 2659)
+Completed 200 OK in 26ms (Views: 23.1ms | Allocations: 3491)
+
+
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 16:55:39 +0530
+Started GET "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg" for ::1 at 2022-05-14 16:55:39 +0530
+Started GET "/app/assets/images/images-224x225.jpg" for ::1 at 2022-05-14 16:55:39 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-14 16:55:39 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg"):
+  
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 16:55:40 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/images-224x225.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+Started GET "/" for ::1 at 2022-05-14 17:31:23 +0530
+Started GET "/" for ::1 at 2022-05-14 17:31:23 +0530
+  [1m[35m (4.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Started GET "/" for ::1 at 2022-05-14 17:31:24 +0530
+Processing by HomeController#about1 as HTML
+Processing by HomeController#about1 as HTML
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 9.3ms | Allocations: 626)
+  Rendered home/about1.html.erb within layouts/application (Duration: 10.2ms | Allocations: 867)
+  Rendered home/about1.html.erb within layouts/application (Duration: 8.3ms | Allocations: 603)
+Started GET "/" for ::1 at 2022-05-14 17:31:24 +0530
+  Rendered home/_header.html.erb (Duration: 4.3ms | Allocations: 1178)
+  Rendered layout layouts/application.html.erb (Duration: 370.5ms | Allocations: 39732)
+Completed 200 OK in 390ms (Views: 388.4ms | ActiveRecord: 0.0ms | Allocations: 41239)
+
+
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 0.2ms | Allocations: 53)
+  Rendered home/_header.html.erb (Duration: 0.9ms | Allocations: 104)
+  Rendered layout layouts/application.html.erb (Duration: 37.6ms | Allocations: 10371)
+Completed 200 OK in 43ms (Views: 41.2ms | ActiveRecord: 0.0ms | Allocations: 11304)
+
+
+  Rendered home/_header.html.erb (Duration: 0.5ms | Allocations: 81)
+  Rendered layout layouts/application.html.erb (Duration: 453.7ms | Allocations: 60895)
+Completed 200 OK in 523ms (Views: 478.5ms | ActiveRecord: 0.0ms | Allocations: 65720)
+
+
+  Rendered home/_header.html.erb (Duration: 0.3ms | Allocations: 67)
+  Rendered layout layouts/application.html.erb (Duration: 515.6ms | Allocations: 75205)
+Completed 200 OK in 581ms (Views: 538.7ms | ActiveRecord: 0.0ms | Allocations: 79440)
+
+
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 17:31:24 +0530
+Started GET "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg" for ::1 at 2022-05-14 17:31:24 +0530
+Started GET "/app/assets/images/images-224x225.jpg" for ::1 at 2022-05-14 17:31:24 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 17:31:25 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg"):
+  
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-14 17:31:25 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/images-224x225.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  
+Started GET "/" for ::1 at 2022-05-14 17:32:41 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 1.2ms | Allocations: 189)
+  Rendered home/_header.html.erb (Duration: 1.8ms | Allocations: 318)
+  Rendered layout layouts/application.html.erb (Duration: 18.2ms | Allocations: 2674)
+Completed 200 OK in 34ms (Views: 29.8ms | ActiveRecord: 0.0ms | Allocations: 3519)
+
+
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 17:32:41 +0530
+Started GET "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg" for ::1 at 2022-05-14 17:32:41 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/app/assets/images/images-224x225.jpg" for ::1 at 2022-05-14 17:32:41 +0530
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-14 17:32:41 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg"):
+  
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 17:32:42 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/images-224x225.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+Started GET "/" for ::1 at 2022-05-14 17:33:06 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 1.2ms | Allocations: 192)
+  Rendered home/_header.html.erb (Duration: 1.2ms | Allocations: 318)
+  Rendered layout layouts/application.html.erb (Duration: 14.0ms | Allocations: 2659)
+Completed 200 OK in 27ms (Views: 23.9ms | ActiveRecord: 0.0ms | Allocations: 3502)
+
+
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 17:33:06 +0530
+Started GET "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg" for ::1 at 2022-05-14 17:33:06 +0530
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 17:33:06 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/app/assets/images/images-224x225.jpg" for ::1 at 2022-05-14 17:33:06 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg"):
+  
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-14 17:33:06 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/images-224x225.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  
+Started GET "/" for ::1 at 2022-05-14 17:33:16 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 1.0ms | Allocations: 189)
+  Rendered home/_header.html.erb (Duration: 1.4ms | Allocations: 318)
+  Rendered layout layouts/application.html.erb (Duration: 16.8ms | Allocations: 2644)
+Completed 200 OK in 29ms (Views: 25.6ms | ActiveRecord: 0.0ms | Allocations: 3487)
+
+
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 17:33:16 +0530
+Started GET "/app/assets/images/images-224x225.jpg" for ::1 at 2022-05-14 17:33:17 +0530
+Started GET "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg" for ::1 at 2022-05-14 17:33:17 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-14 17:33:17 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/images-224x225.jpg"):
+  
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 17:33:17 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+Started GET "/" for ::1 at 2022-05-14 17:33:46 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 1.7ms | Allocations: 189)
+  Rendered home/_header.html.erb (Duration: 1.6ms | Allocations: 318)
+  Rendered layout layouts/application.html.erb (Duration: 15.4ms | Allocations: 2653)
+Completed 200 OK in 27ms (Views: 23.9ms | ActiveRecord: 0.0ms | Allocations: 3496)
+
+
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 17:33:46 +0530
+Started GET "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg" for ::1 at 2022-05-14 17:33:46 +0530
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 17:33:47 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/app/assets/images/images-224x225.jpg" for ::1 at 2022-05-14 17:33:47 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg"):
+  
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-14 17:33:47 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/images-224x225.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  
+Started GET "/" for ::1 at 2022-05-14 17:33:53 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 1.7ms | Allocations: 189)
+  Rendered home/_header.html.erb (Duration: 1.4ms | Allocations: 318)
+  Rendered layout layouts/application.html.erb (Duration: 16.6ms | Allocations: 2666)
+Completed 200 OK in 29ms (Views: 25.4ms | ActiveRecord: 0.0ms | Allocations: 3509)
+
+
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-14 17:33:53 +0530
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 17:33:54 +0530
+Started GET "/app/assets/images/images-224x225.jpg" for ::1 at 2022-05-14 17:33:54 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  
+Started GET "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg" for ::1 at 2022-05-14 17:33:54 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 17:33:54 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/images-224x225.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+Started GET "/" for ::1 at 2022-05-14 17:33:59 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 1.6ms | Allocations: 189)
+  Rendered home/_header.html.erb (Duration: 1.4ms | Allocations: 318)
+  Rendered layout layouts/application.html.erb (Duration: 16.2ms | Allocations: 2677)
+Completed 200 OK in 28ms (Views: 24.6ms | ActiveRecord: 0.0ms | Allocations: 3523)
+
+
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 17:33:59 +0530
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-14 17:33:59 +0530
+Started GET "/app/assets/images/images-224x225.jpg" for ::1 at 2022-05-14 17:33:59 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg" for ::1 at 2022-05-14 17:33:59 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/images-224x225.jpg"):
+  
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 17:34:00 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+Started GET "/" for ::1 at 2022-05-14 17:37:41 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 1.1ms | Allocations: 189)
+  Rendered home/_header.html.erb (Duration: 1.5ms | Allocations: 312)
+  Rendered layout layouts/application.html.erb (Duration: 16.7ms | Allocations: 2644)
+Completed 200 OK in 33ms (Views: 29.0ms | Allocations: 3477)
+
+
+Started GET "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg" for ::1 at 2022-05-14 17:37:41 +0530
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 17:37:41 +0530
+Started GET "/app/assets/images/images-224x225.jpg" for ::1 at 2022-05-14 17:37:41 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg"):
+  
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-14 17:37:41 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 17:37:42 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/images-224x225.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+Started GET "/" for ::1 at 2022-05-14 17:38:03 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 1.1ms | Allocations: 189)
+  Rendered home/_header.html.erb (Duration: 1.5ms | Allocations: 312)
+  Rendered layout layouts/application.html.erb (Duration: 15.6ms | Allocations: 2668)
+Completed 200 OK in 28ms (Views: 24.5ms | Allocations: 3501)
+
+
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 17:38:03 +0530
+Started GET "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg" for ::1 at 2022-05-14 17:38:03 +0530
+Started GET "/app/assets/images/images-224x225.jpg" for ::1 at 2022-05-14 17:38:03 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 17:38:03 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg"):
+  
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-14 17:38:03 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/images-224x225.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  
+Started GET "/" for ::1 at 2022-05-14 17:38:22 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 1.4ms | Allocations: 189)
+  Rendered home/_header.html.erb (Duration: 2.3ms | Allocations: 312)
+  Rendered layout layouts/application.html.erb (Duration: 16.7ms | Allocations: 2650)
+Completed 200 OK in 30ms (Views: 26.4ms | Allocations: 3483)
+
+
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 17:38:22 +0530
+Started GET "/app/assets/images/images-224x225.jpg" for ::1 at 2022-05-14 17:38:22 +0530
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-14 17:38:22 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg" for ::1 at 2022-05-14 17:38:22 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/images-224x225.jpg"):
+  
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 17:38:23 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+Started GET "/" for ::1 at 2022-05-14 17:38:31 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 1.1ms | Allocations: 189)
+  Rendered home/_header.html.erb (Duration: 1.2ms | Allocations: 312)
+  Rendered layout layouts/application.html.erb (Duration: 14.0ms | Allocations: 2666)
+Completed 200 OK in 26ms (Views: 22.9ms | Allocations: 3499)
+
+
+Started GET "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg" for ::1 at 2022-05-14 17:38:31 +0530
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 17:38:32 +0530
+Started GET "/app/assets/images/images-224x225.jpg" for ::1 at 2022-05-14 17:38:32 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg"):
+  
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 17:38:32 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-14 17:38:32 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/images-224x225.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  
+Started GET "/" for ::1 at 2022-05-14 17:39:02 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 0.1ms | Allocations: 20)
+  Rendered home/_header.html.erb (Duration: 0.1ms | Allocations: 63)
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 1602)
+Completed 200 OK in 7ms (Views: 6.5ms | Allocations: 1897)
+
+
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 17:39:02 +0530
+Started GET "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg" for ::1 at 2022-05-14 17:39:02 +0530
+Started GET "/app/assets/images/images-224x225.jpg" for ::1 at 2022-05-14 17:39:02 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-14 17:39:02 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg"):
+  
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 17:39:02 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/images-224x225.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+Started GET "/" for ::1 at 2022-05-14 17:39:24 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 0.5ms | Allocations: 189)
+  Rendered home/_header.html.erb (Duration: 0.5ms | Allocations: 312)
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 2639)
+Completed 200 OK in 13ms (Views: 12.1ms | Allocations: 3454)
+
+
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 17:39:24 +0530
+Started GET "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg" for ::1 at 2022-05-14 17:39:24 +0530
+Started GET "/app/assets/images/images-224x225.jpg" for ::1 at 2022-05-14 17:39:24 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 17:39:24 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg"):
+  
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-14 17:39:24 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/images-224x225.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  
+Started GET "/" for ::1 at 2022-05-14 17:39:35 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 0.5ms | Allocations: 189)
+  Rendered home/_header.html.erb (Duration: 0.8ms | Allocations: 312)
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | Allocations: 2657)
+Completed 200 OK in 15ms (Views: 14.1ms | Allocations: 3490)
+
+
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 17:39:35 +0530
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-14 17:39:35 +0530
+Started GET "/app/assets/images/images-224x225.jpg" for ::1 at 2022-05-14 17:39:35 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg" for ::1 at 2022-05-14 17:39:35 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 17:39:36 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/images-224x225.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+Started GET "/" for ::1 at 2022-05-14 17:55:00 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 0.6ms | Allocations: 189)
+  Rendered home/_header.html.erb (Duration: 0.8ms | Allocations: 310)
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | Allocations: 2658)
+Completed 200 OK in 14ms (Views: 12.1ms | Allocations: 3491)
+
+
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 17:55:00 +0530
+Started GET "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg" for ::1 at 2022-05-14 17:55:00 +0530
+Started GET "/app/assets/images/images-224x225.jpg" for ::1 at 2022-05-14 17:55:00 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-14 17:55:00 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/images-224x225.jpg"):
+  
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 17:55:00 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+Started GET "/" for ::1 at 2022-05-14 17:55:27 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 0.8ms | Allocations: 189)
+  Rendered home/_header.html.erb (Duration: 0.5ms | Allocations: 311)
+  Rendered layout layouts/application.html.erb (Duration: 7.0ms | Allocations: 2665)
+Completed 200 OK in 15ms (Views: 12.4ms | Allocations: 3498)
+
+
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 17:55:27 +0530
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 17:55:27 +0530
+Started GET "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg" for ::1 at 2022-05-14 17:55:27 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/app/assets/images/images-224x225.jpg" for ::1 at 2022-05-14 17:55:27 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-14 17:55:27 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/images-224x225.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  
+Started GET "/" for ::1 at 2022-05-14 17:56:15 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 0.6ms | Allocations: 189)
+  Rendered home/_header.html.erb (Duration: 0.7ms | Allocations: 312)
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 2669)
+Completed 200 OK in 17ms (Views: 14.2ms | Allocations: 3502)
+
+
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 17:56:15 +0530
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 17:56:15 +0530
+Started GET "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg" for ::1 at 2022-05-14 17:56:15 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/app/assets/images/images-224x225.jpg" for ::1 at 2022-05-14 17:56:15 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-14 17:56:15 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/images-224x225.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  
+Started GET "/" for ::1 at 2022-05-14 17:56:53 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 0.5ms | Allocations: 189)
+  Rendered home/_header.html.erb (Duration: 0.7ms | Allocations: 318)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 2657)
+Completed 200 OK in 14ms (Views: 11.3ms | Allocations: 3490)
+
+
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-14 17:56:53 +0530
+Started GET "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg" for ::1 at 2022-05-14 17:56:53 +0530
+Started GET "/app/assets/images/images-224x225.jpg" for ::1 at 2022-05-14 17:56:53 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-14 17:56:53 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg"):
+  
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-14 17:56:53 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/images-224x225.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  
+Started GET "/" for ::1 at 2022-05-15 10:26:06 +0530
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 2.7ms | Allocations: 373)
+  Rendered home/_header.html.erb (Duration: 2.3ms | Allocations: 379)
+  Rendered layout layouts/application.html.erb (Duration: 129.5ms | Allocations: 26266)
+Completed 200 OK in 153ms (Views: 139.3ms | ActiveRecord: 0.0ms | Allocations: 29434)
+
+
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-15 10:26:07 +0530
+Started GET "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg" for ::1 at 2022-05-15 10:26:07 +0530
+Started GET "/app/assets/images/images-224x225.jpg" for ::1 at 2022-05-15 10:26:07 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-15 10:26:07 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/images-224x225.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+
+NameError: constant WebConsole::SourceLocation not defined
+
+          source_location = SourceLocation.new(binding)
+                            ^^^^^^^^^^^^^^
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/exception_mapper.rb:51:in `block in guess_the_first_application_binding'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/exception_mapper.rb:50:in `each'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/exception_mapper.rb:50:in `find'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/exception_mapper.rb:50:in `guess_the_first_application_binding'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/exception_mapper.rb:30:in `first'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/session.rb:48:in `initialize'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/session.rb:34:in `new'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/session.rb:34:in `from'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/middleware.rb:30:in `block in call'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/middleware.rb:17:in `catch'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/web-console-4.2.0/lib/web_console/middleware.rb:17:in `call'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/actionpack-7.0.2.4/lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/railties-7.0.2.4/lib/rails/rack/logger.rb:36:in `call_app'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/railties-7.0.2.4/lib/rails/rack/logger.rb:25:in `block in call'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/activesupport-7.0.2.4/lib/active_support/tagged_logging.rb:99:in `block in tagged'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/activesupport-7.0.2.4/lib/active_support/tagged_logging.rb:37:in `tagged'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/activesupport-7.0.2.4/lib/active_support/tagged_logging.rb:99:in `tagged'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/railties-7.0.2.4/lib/rails/rack/logger.rb:25:in `call'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/sprockets-rails-3.4.2/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/actionpack-7.0.2.4/lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/actionpack-7.0.2.4/lib/action_dispatch/middleware/request_id.rb:26:in `call'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/rack-2.2.3/lib/rack/method_override.rb:24:in `call'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/rack-2.2.3/lib/rack/runtime.rb:22:in `call'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/activesupport-7.0.2.4/lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/actionpack-7.0.2.4/lib/action_dispatch/middleware/server_timing.rb:20:in `call'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/actionpack-7.0.2.4/lib/action_dispatch/middleware/executor.rb:14:in `call'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/actionpack-7.0.2.4/lib/action_dispatch/middleware/static.rb:23:in `call'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/rack-2.2.3/lib/rack/sendfile.rb:110:in `call'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/actionpack-7.0.2.4/lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/railties-7.0.2.4/lib/rails/engine.rb:530:in `call'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/puma-5.6.4/lib/puma/configuration.rb:252:in `call'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/puma-5.6.4/lib/puma/request.rb:77:in `block in handle_request'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/puma-5.6.4/lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/puma-5.6.4/lib/puma/request.rb:76:in `handle_request'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/puma-5.6.4/lib/puma/server.rb:441:in `process_client'
+	from C:/Ruby31/lib/ruby/gems/3.1.0/gems/puma-5.6.4/lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-15 10:26:07 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  
+Started GET "/users/sign_in" for ::1 at 2022-05-15 16:52:13 +0530
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [GET] "/users/sign_in"):
+  
+Started GET "/users/sign_in" for ::1 at 2022-05-15 16:52:17 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/users/sign_in"):
+  
+Started GET "/users/sign_in" for ::1 at 2022-05-15 16:52:18 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/users/sign_in"):
+  
+Started GET "/users/sign_in" for ::1 at 2022-05-15 16:52:18 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/users/sign_in"):
+  
+Started GET "/users/sign_in" for ::1 at 2022-05-15 16:52:18 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/users/sign_in"):
+  
+Started GET "/home/assets/web/assets/mobirise-icons2/mobirise2.css" for ::1 at 2022-05-15 16:52:22 +0530
+Started GET "/home/assets/theme/css/style.css" for ::1 at 2022-05-15 16:52:22 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/home/assets/web/assets/mobirise-icons2/mobirise2.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/home/assets/theme/js/script.js" for ::1 at 2022-05-15 16:52:22 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/home/assets/theme/css/style.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/home/assets/theme/js/script.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.js"):
+  
+Started GET "/" for ::1 at 2022-05-15 16:52:28 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 1.1ms | Allocations: 190)
+  Rendered home/_header.html.erb (Duration: 0.7ms | Allocations: 371)
+  Rendered layout layouts/application.html.erb (Duration: 102.9ms | Allocations: 25843)
+Completed 200 OK in 114ms (Views: 106.9ms | ActiveRecord: 0.0ms | Allocations: 27928)
+
+
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-15 16:52:28 +0530
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-15 16:52:28 +0530
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-15 16:52:28 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+Started GET "/app/assets/images/images-224x225.jpg" for ::1 at 2022-05-15 16:52:28 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+Started GET "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg" for ::1 at 2022-05-15 16:52:28 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/images-224x225.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg"):
+  
+Started GET "/" for ::1 at 2022-05-15 16:53:58 +0530
+Processing by HomeController#about1 as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about1.html.erb within layouts/application
+  Rendered home/about1.html.erb within layouts/application (Duration: 0.1ms | Allocations: 20)
+  Rendered home/_header.html.erb (Duration: 0.1ms | Allocations: 63)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 1658)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms | Allocations: 1956)
+
+
+Started GET "/app/assets/stylesheets/bootstrap.min.css" for ::1 at 2022-05-15 16:53:58 +0530
+Started GET "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg" for ::1 at 2022-05-15 16:53:59 +0530
+Started GET "/app/assets/bootstrap.min.js" for ::1 at 2022-05-15 16:53:59 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/stylesheets/bootstrap.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/30ki-nitjpg5-1-1200x583.jpg"):
+  
+Started GET "/app/assets/images/images-224x225.jpg" for ::1 at 2022-05-15 16:53:59 +0530
+Started GET "/app/assets/images/download-259x195.jpg" for ::1 at 2022-05-15 16:53:59 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/bootstrap.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/images-224x225.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/download-259x195.jpg"):
+  

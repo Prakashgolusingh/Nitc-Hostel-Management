@@ -1,0 +1,38 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+   <title></title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="/app/assets/stylesheets/bootstrap.min.css" rel="stylesheet">
+
+    <title>home</title>
+  </head>
+  <body>
+  <%= render'home/header'%>
+     <%= yield %>
+    <script src="/app/assets/bootstrap.min.js">
+    </script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
