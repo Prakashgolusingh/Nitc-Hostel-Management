@@ -1,4 +1,3 @@
-# README
 It was Group Project 
 This one was my first project in web (I mostly worked on fontend and it was looking nice)
 Also worked a little on backend overall it's great leaning experiance.
